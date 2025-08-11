@@ -1,4 +1,4 @@
-public class First {
+public class First_1 {
 
     private static int sumOfMultiples(int num){
         int sum = 0 ;
