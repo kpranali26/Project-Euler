@@ -14,7 +14,7 @@ public class First_1 {
     }
 
     public static void main(String [] args){
-      int num = 10;
+      int num = 1000;
       int ans = sumOfMultiples(num);
       System.out.println("Sum of Multiples of 3 or 5 below "+num +"=" + ans);
 

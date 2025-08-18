@@ -1,15 +1,16 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class countingSunday {
 
-    // 1 jan -> monday 1990
+    // Start => 1 jan , 1901 day =Monday
+    // End => 31 December , 2000 day = ?
 
     public static void main(String[] args) {
         int countSun = 0;
         // Scanner sc = new Scanner(System.in);
         // String month = sc.nextLine();
-        int day = 1;
-        int count = 0;
+        // int day = 1;
+        // int count = 0;
         int year = 1901;
         int[] monthLengths = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
         int date = 0;
