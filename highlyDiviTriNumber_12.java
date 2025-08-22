@@ -4,7 +4,7 @@ public class highlyDiviTriNumber_12 {
         int num = 0;
         int j = 0;
          while (true) {
-           int count = helper(num);
+           int count = findDivisor(num);
             if( count >= 500) {
                 System.out.println(num);
                 break;
@@ -15,7 +15,7 @@ public class highlyDiviTriNumber_12 {
      
     }
 
-    private static int helper (int num){
+    private static int findDivisor(int num){
         int count = 0;
         for(int i = 1 ; i * i <= num ; i++){
             if (num % i == 0) {
