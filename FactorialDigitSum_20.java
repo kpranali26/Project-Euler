@@ -20,3 +20,6 @@ public class FactorialDigitSum_20 {
         System.out.println("Sum of digits of "+num +"! : " + sum);
     }
 }
+
+
+// main part was only to manage that large factorial value which in java we did with the help of biginteger!!
