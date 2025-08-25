@@ -21,3 +21,4 @@ public class First_1 {
     }
     
 }
+// simple finding mulltiples of 3 and 5 
